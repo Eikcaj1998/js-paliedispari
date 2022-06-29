@@ -32,3 +32,8 @@ function isPalindrome(word) {
     } 
     return result;
 }
+//invochiamo la funzione 
+const userWordCheck = isPalindrome(userWord);
+//informo che la parola è palindroma o meno 
+alert(userWordCheck);
+console.log(userWordCheck)
